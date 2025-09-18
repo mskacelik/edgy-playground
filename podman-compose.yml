@@ -18,3 +18,11 @@ services:
       dockerfile: src/main/docker/Dockerfile.jvm
     ports:
       - "8083:8083"
+  # FIXME: when the API GATEWAY is deployed via container, each valid request is returned with 
+  # 502 BAD GATEWAY error.
+  # api-gateway:
+  #   build:
+  #     context: ./api-gateway
+  #     dockerfile: src/main/docker/Dockerfile.jvm
+  #   ports:
+  #     - "8084:8084"

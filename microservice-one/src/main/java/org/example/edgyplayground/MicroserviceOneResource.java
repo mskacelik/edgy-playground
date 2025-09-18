@@ -1,4 +1,4 @@
-package org.acme;
+package org.example.edgyplayground;
 
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.GET;
